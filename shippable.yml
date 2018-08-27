@@ -3,7 +3,7 @@ language: php
 
 #Version number
 php:
-  - pypy3
+  - 7.2
 
 env:   
   global:
