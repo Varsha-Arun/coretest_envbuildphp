@@ -5,6 +5,10 @@ language: python
 python:
   - pypy
 
+branches:
+  except:
+    - branchexcceptmanual
+    
 env:   
   global:
     - GITHUB=https://github.com
