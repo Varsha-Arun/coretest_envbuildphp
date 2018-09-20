@@ -5,9 +5,7 @@ language: php
 php:
   - pypy
 
-branches:
-  except:
-    - branchexcceptmanual
+
     
 env:   
   global:
