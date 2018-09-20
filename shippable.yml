@@ -1,10 +1,14 @@
 #language
-language: php
+language: python
 
 #Version number
-php:
-  - 5.4
+python:
+  - pypy
 
+branches:
+  only:
+    - branchonly
+    
 env:   
   global:
     - GITHUB=https://github.com
@@ -14,7 +18,7 @@ env:
      
 build:
   ci:
-    - php --version
+    - python --version
     - echo https://google.com
     - echo link to prod https://www.shippable.com
     - echo $GITHUB
