@@ -18,7 +18,7 @@ env:
      
 build:
   ci:
-    - php --version
+    - python --version
     - echo https://google.com
     - echo link to prod https://www.shippable.com
     - echo $GITHUB
