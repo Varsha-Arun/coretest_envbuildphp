@@ -1,12 +1,10 @@
 #language
-language: php
+language: python
 
 #Version number
-php:
+python:
   - pypy
 
-
-    
 env:   
   global:
     - GITHUB=https://github.com
