@@ -15,6 +15,7 @@ env:
 build:
   ci:
     - php --version
+    - printenv
     - echo https://google.com
     - echo link to prod https://www.shippable.com
     - echo $GITHUB
